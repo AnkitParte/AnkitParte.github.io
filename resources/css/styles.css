@@ -370,7 +370,12 @@ a {
   color: #264653;
 }
 .socialhandle>div{background-color: #ACCFCB;}
-.socialhandle>div>a>span,i{
+.socialhandle>div>a>span{
+  display: block;
+  background-color: #ACCFCB;
+  color: #264653;
+}
+.socialhandle>div>a>i{
   display: block;
   background-color: #ACCFCB;
   color: #264653;
@@ -384,6 +389,14 @@ a {
   font-size: 22px;
   font-weight: 600;
   text-align: center;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+}
+.social>div>a>span{
+  font-size: 12px;
+  display: block;
 }
 
 
