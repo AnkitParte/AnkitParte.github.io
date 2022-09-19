@@ -581,11 +581,20 @@ a {
 
 #myLinks{
   display: none;
+  background-color: #ACCFCB;
+  color: #264653;
 }
 #myLinks>div{
   text-align: center;
   margin-top: 4px;
   padding: 4px;
+  background-color: #ACCFCB;
+  color: #264653;
+}
+#myLinks>div>a{
+  color: #264653;
+  background-color: #ACCFCB;
+  font-weight: 700;
 }
 
 
