@@ -18,6 +18,18 @@ function myFunction() {
     }
 }
 
+GitHubCalendar(".calendar", "AnkitParte");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "AnkitParte", { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", "your-username", {
+    proxy(username) {
+        return fetch(`https://your-proxy.com/github?user=${username}`)
+    }
+}).then(r => r.text())
+
 
 
 
