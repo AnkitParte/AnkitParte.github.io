@@ -7,6 +7,7 @@
   color: #b8f2e6;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
+  scroll-behavior: smooth;
 }
 
 a {
