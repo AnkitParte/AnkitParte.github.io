@@ -9,6 +9,9 @@
   letter-spacing: 1px;
   scroll-behavior: smooth;
 }
+.contrib-number{
+  color: #b8f2e6;
+}
 
 a {
   text-decoration: none;
@@ -147,6 +150,17 @@ a {
   margin: auto;
 }
 
+.calendar>div:nth-child(3)>span{
+  color: #b8f2e6;
+}
+
+.calendar>div:nth-child(4)>span{
+  color: #b8f2e6;
+}
+.calendar>div:nth-child(5)>span{
+  color: #b8f2e6;
+}
+
 
 .navbar>div:nth-child(1) {
   width: 40%;
@@ -202,7 +216,7 @@ a {
 
 .profilePic>img {
   height: 60%;
-  width: 65%;
+  width: 70%;
   margin: auto;
   box-shadow: 12px 12px 2px 1px#2873A5;
 
