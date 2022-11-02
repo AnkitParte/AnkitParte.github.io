@@ -238,6 +238,15 @@ a {
   border-radius: 10px;
 }
 
+.resumeNav {
+  text-decoration: none;
+  padding: 4px;
+  background-color: #ACCFCB;
+  color: #264653;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
 #about {
   width: 60%;
   margin: auto;
@@ -612,6 +621,7 @@ a {
   display: none;
   background-color: #ACCFCB;
   color: #264653;
+  padding-bottom: 10px;
 }
 #myLinks>div{
   text-align: center;

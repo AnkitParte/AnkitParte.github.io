@@ -1,5 +1,16 @@
 
 
+function displayWindowSize(){
+    var w = document.documentElement.clientWidth;
+    var myLinks = document.getElementById("myLinks");
+    if(w>768){
+        if( myLinks.style.display === "block"){
+            myLinks.style.display = "none";
+        }
+    }
+}
+window.addEventListener("resize",displayWindowSize);
+
 const copy = document.getElementById("copy");
 copy.addEventListener("click", () => {
     navigator.clipboard.writeText("ankitparte80@gmail.com");
