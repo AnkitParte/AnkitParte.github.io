@@ -159,6 +159,16 @@ a {
   color: #b8f2e6;
 }
 
+.mystats{
+  padding: 1rem;
+}
+.mystats>div{
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+
 
 .navbar>div:nth-child(1) {
   width: 40%;
@@ -451,6 +461,14 @@ a {
 
 @media screen and (min-width:100px) and (max-width:768px) {
   
+  .mystats>div{
+    display: flex;
+    justify-content: space-around;
+    padding: 10ox;
+  }
+  .mystats>div>img{
+    width: 100%;
+  }
   
   #nav-menu{
     display: none;
