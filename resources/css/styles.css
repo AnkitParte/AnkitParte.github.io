@@ -124,7 +124,13 @@ a {
 
 
   
-
+#details>div{
+  background-color: #ACCFCB;
+  color: #264653;
+  font-size: 15px;
+  font-weight: 505;
+  text-align: center;
+}
 
 .navbar {
   position: sticky;
