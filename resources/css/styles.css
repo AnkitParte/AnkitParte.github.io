@@ -469,7 +469,7 @@ a {
 
 
 
-@media screen and (min-width:100px) and (max-width:768px) {
+@media screen and (min-width:100px) and (max-width:999px) {
   
   .mystats>div{
     display: flex;
